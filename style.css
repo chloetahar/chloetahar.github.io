@@ -1,0 +1,272 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(palanquin-light.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(webfonts/ostrich-rounded.ttf);
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(webfonts/ostrich-rounded.ttf);
+}
+
+@font-face {
+    font-family: my4Font;
+    src: url(webfonts/ostrich-dashed.ttf)}
+
+
+
+
+
+#bibbase_header a {
+    text-decoration: none;
+    font-family: myFirstFont;
+}
+
+#bibbase_header i {
+    width: 16px;
+    text-align: center;
+    margin-right: 5px;
+    font-family: myFirstFont;
+}
+
+
+.bibbase_group_body {
+    margin-left: 16px;
+    line-height: 1.15em;
+    font-family: myFirstFont;
+}
+
+
+.bibbase_group {
+    /* background-color: #D0D0E0; */
+    background-color: #E0E0E0;
+    color:#7ED321;
+    font-family: MySecondFont;
+    font-style: italic;
+    font-size: larger;
+    text-shadow: 0px 0px 3px #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px;
+    padding: 5px 40px 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.wrapper {
+    border-top: 7px dotted #ABABAB;
+    box-shadow: inset 0 3px 0 0 #000, 0 -3px 0 0 #000;
+    background: #ABABAB;
+}
+
+#main-image {
+    text-align:center;
+}
+
+#left-column {
+    width:800px;
+    padding:0 30px 30px;
+    float:left;
+}
+
+
+#shadow {
+    border: 1px solid #888888;
+    padding: 5px;
+    box-shadow: 2px 3px ;
+}
+
+#main-content {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+
+}
+
+#right-column {
+    width:270px;
+    float:right;
+}
+
+.sidebar {
+    width:218px;
+    margin:0 auto;
+    padding:10px 25px;
+    background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
+}
+
+
+
+/* Global Styling */
+
+details {
+    display: inline-block;
+}
+
+details summary{
+    color:#DB4135;
+    display: inline-block;
+}
+
+summary::-webkit-details-marker {
+    display: none
+}
+
+img {
+    border-radius: 35%;
+}
+
+summary:after {
+    border-radius: 5px;
+    content: "+ ";
+    float: right;
+    font-size: 1.5em;
+    font-weight: bold;}
+
+details[open] summary:after {
+    content: "-";
+    display: inline-block;
+}
+
+a:visited, a:link {
+    color:#E67E22;
+    text-decoration:none;
+    background:none;
+}
+
+a:hover {
+    color:#313C74;
+    text-decoration:underline;
+    background:none;
+}
+
+h1 {
+    color:#7ED321;
+    margin:0 0 10px;
+    padding-bottom:10px;
+    font-family: MySecondFont;
+    font-size: 72px;
+ text-align: center;
+}
+
+h2 {
+    margin:20px 0 5px;
+    padding-bottom:2px;
+    font-family: MyThirdFont;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-family: mySecondFont;
+    padding-bottom:2px;
+    margin: 0px;
+    font-size: 25px;
+     color: black;
+
+}
+
+ul {
+    line-height: 150%;
+    padding:0;
+    margin:0 0 10px 17px;
+    font-family: myFirstFont;
+    font-size: 15px;
+    list-style: none;
+}
+
+summary {font-family: myFirstFont;
+    line-height: 120%;
+    color:#313C74;
+}
+
+
+p {font-family: myFirstFont;
+    line-height: 120%;
+    font-size: 18px;}
+
+#p2 {font-family: my4Font;
+    line-height: 120%;
+    font-size: 20px;}
+
+div.round1 {
+    border-top: 2px solid #DB4135;
+    padding: 1px;
+    text-align: center;
+
+}
+
+
+#nav {
+    padding:10px 20px;
+    font-size: 30px;
+    text-align:center;
+    font-family: MyThirdFont;
+}
+
+#nav a {
+    margin: 0 10px;
+}
+
+#nav a:visited, #nav a:link {
+    text-decoration:none;
+    color:#000;
+}
+
+#nav a:hover {
+    text-decoration:underline;
+    color:#313C74;
+}
+
+#logo {
+    color: #DB4135;
+    margin-bottom: 20px;
+    font: normal 25px MySecondFont;
+}
+
+#link {font-family: myFirstFont;}
+
+img {
+    align-self: center;
+}
+
+li {
+    font-family: myFirstFont;
+    font-size: 18px;        /* même logique que ton texte */
+    line-height: 1.6;       /* espace vertical */
+    margin-bottom: 12px;    /* espace entre publications */
+}
+
+li {
+    padding-left: 20px;
+    position: relative;
+}
+
+
+
+
+
+li {
+    position: relative;
+    padding-left: 25px;
+}
+
+li::before {
+    content: "☘";  /* trèfle Unicode */
+    position: absolute;
+    left: 0;
+    color: #5A9E1F; /* ton vert */
+}
+
+.main-container {
+     text-align: justify;
+    max-width: 800px;     /* largeur du bloc */
+    margin: 0 auto;       /* centre horizontal */
+    padding: 20px 40px;   /* marges internes */
+}

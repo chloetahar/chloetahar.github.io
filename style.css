@@ -266,7 +266,7 @@ li::before {
 
 .main-container {
      text-align: justify;
-    max-width: 800px;     /* largeur du bloc */
+    max-width: 700px;     /* largeur du bloc */
     margin: 0 auto;       /* centre horizontal */
     padding: 20px 40px;   /* marges internes */
 }

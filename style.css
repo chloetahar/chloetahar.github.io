@@ -271,3 +271,26 @@ li::before {
     padding: 20px 40px;   /* marges internes */
 }
 
+.intro-block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.intro-image {
+    width: 340px;
+    max-width: 40%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.intro-text {
+    text-align: justify;
+    margin: 0;
+}
+
+

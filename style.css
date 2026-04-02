@@ -297,6 +297,8 @@ li::before {
     text-align: justify;
 }
 
+
+
 @media (max-width: 768px) {
     .intro-block {
         display: block;
@@ -308,7 +310,7 @@ li::before {
 
     .intro-image {
         display: block;
-        width: 220px;
+        width: 340px;
         max-width: 70%;
         margin: 0 auto 20px auto;
     }
